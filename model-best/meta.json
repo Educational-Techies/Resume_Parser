@@ -1,0 +1,107 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.4,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"bff8725f4",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "College Name",
+      "Companies worked at",
+      "Degree",
+      "Designation",
+      "Email Address",
+      "Graduation Year",
+      "Location",
+      "Name",
+      "Skills",
+      "UNKNOWN",
+      "Years of Experience"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9549718574,
+    "ents_p":0.9549718574,
+    "ents_r":0.9549718574,
+    "ents_per_type":{
+      "Name":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Designation":{
+        "p":0.9863013699,
+        "r":0.9473684211,
+        "f":0.966442953
+      },
+      "Location":{
+        "p":1.0,
+        "r":0.8918918919,
+        "f":0.9428571429
+      },
+      "Companies worked at":{
+        "p":0.9666666667,
+        "r":0.935483871,
+        "f":0.9508196721
+      },
+      "Graduation Year":{
+        "p":0.9487179487,
+        "r":1.0,
+        "f":0.9736842105
+      },
+      "Degree":{
+        "p":0.9523809524,
+        "r":0.9756097561,
+        "f":0.9638554217
+      },
+      "College Name":{
+        "p":1.0,
+        "r":0.9787234043,
+        "f":0.9892473118
+      },
+      "Skills":{
+        "p":0.8977272727,
+        "r":0.9875,
+        "f":0.9404761905
+      },
+      "Email Address":{
+        "p":0.8888888889,
+        "r":0.9696969697,
+        "f":0.9275362319
+      },
+      "Years of Experience":{
+        "p":0.7692307692,
+        "r":0.8333333333,
+        "f":0.8
+      }
+    },
+    "transformer_loss":447.0471671581,
+    "ner_loss":11231.2316904373
+  }
+}

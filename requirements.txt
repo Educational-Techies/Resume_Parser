@@ -1,0 +1,8 @@
+#this file contains the various libraries required to run the program
+#Run 'pip install pre-requisites.txt' in terminal to install all the libraries
+
+customtkinter
+spacy
+spacy_transformers
+torch==2.2.1
+pymupdf
