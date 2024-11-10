@@ -12,6 +12,7 @@ This is a Resume Parser with GUI interface, It uses spacy library to do NLP proc
   6. Open Python Idle
      press File-->Open--->Locate the 'main.py' file in you're system
      press Run--->Run Module
+  7. Browse the CV of your choice and find the extrated features and rating of the cv
 
    [OR]  
   
