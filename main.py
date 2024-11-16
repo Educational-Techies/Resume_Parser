@@ -123,7 +123,7 @@ def main() :
     else:
         progressbar.set(len(skills))  
     
-    textbox = ctk.CTkTextbox(window, width=300, height= 450)
+    textbox = ctk.CTkTextbox(window, width=300, height= 450,wrap="word")
     textbox.grid(row=1, column=0,sticky="nsew", rowspan = 6)
 
     for ent in value.ents:
